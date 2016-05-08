@@ -6,9 +6,9 @@ body {
 
 .weather-app {
     margin: 0 auto;
-    margin-top: 5%;
-    padding: 3%;
-    width: 30%;
+    margin-top: 70px;
+    padding: 20px;
+    width: 400px;
     text-align: center;
     background-color: #7658F9;
     color: #fff;
@@ -58,4 +58,10 @@ body {
 
 .segment-select {
     display: none;
+}
+
+@media only screen and (max-width:467px) {
+    .weather-app {
+        width: 100%;
+    }
 }
